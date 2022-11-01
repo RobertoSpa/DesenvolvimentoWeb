@@ -1,0 +1,8 @@
+.bagulho {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /*background-color: #FFF;*/
+}
