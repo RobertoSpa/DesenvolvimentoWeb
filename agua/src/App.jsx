@@ -31,6 +31,7 @@ function App() {
     setCopo(1);
     setTotal(0);
     setMsg("");
+    setHist("");
   };
 
   return (
