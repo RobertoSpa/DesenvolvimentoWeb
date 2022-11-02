@@ -23,7 +23,7 @@ function App() {
     setTotal(copo * ml);
     setHist(`${date} ${hist}`);
     if (copo * ml >= meta) {
-      setMsg("PRABUAINZ");
+      setMsg("PARABENS!");
     }
   };
 
@@ -61,7 +61,6 @@ function App() {
         <div className="historico">
           <p>{hist}</p>
         </div>
-        
       </div>
     </>
   );
