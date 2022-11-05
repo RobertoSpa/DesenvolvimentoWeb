@@ -12,10 +12,9 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="galeria" element={<Galeria />} />
+      <Route path="/galeria" element={<Galeria />} />
       <Route path="/contatos" element={<Contatos />} />
       <Route path="/contatos/:id" element={<ContatoDetalhes />} />
-      <Route />
       <Route path="*" element={<h1>errou</h1>} />
     </Routes>
   );
